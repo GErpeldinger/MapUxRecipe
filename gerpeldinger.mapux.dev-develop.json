@@ -1,0 +1,30 @@
+{
+    "manifests": {
+        "gerpeldinger/mapux": {
+            "manifest": {
+                "bundles": {
+                    "MapUx\\MapUxBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "env": {
+                    "#1": "MAP_TOKEN=\"token\""
+                }
+            },
+            "files": {
+                "config/packages/mapux.yaml": {
+                    "contents": [
+                        "map_ux:",
+                        "  library: leaflet",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "b99059ea1537a9bea1828c0cca234f25c62dae59"
+        }
+    }
+}
