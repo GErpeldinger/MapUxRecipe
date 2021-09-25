@@ -201,8 +201,7 @@
     },
     "recipes": {
         "gerpeldinger/mapux": [
-            "dev-develop",
-            "dev-injection"
+            "dev-develop"
         ]
     },
     "versions": {
@@ -1413,11 +1412,11 @@
             ]
         }
     },
-    "branch": "injection",
+    "branch": "master",
     "is_contrib": false,
     "_links": {
         "repository": "github.com/GErpeldinger/MapUxRecipe",
-        "origin_template": "{package}:{version}@github.com/GErpeldinger/MapUxRecipe:injection",
+        "origin_template": "{package}:{version}@github.com/GErpeldinger/MapUxRecipe:master",
         "recipe_template": "https://api.github.com/repos/GErpeldinger/MapUxRecipe/contents/{package_dotted}.{version}.json?ref=flex/main"
     }
 }
