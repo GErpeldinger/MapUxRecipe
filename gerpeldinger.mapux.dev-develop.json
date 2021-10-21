@@ -7,24 +7,13 @@
                         "all"
                     ]
                 },
-                "copy-from-recipe": {
-                    "config/": "%CONFIG_DIR%/"
-                },
                 "env": {
-                    "#1": "MAP_TOKEN=\"token\""
+                    "#1": "MAP_BOX_TOKEN=\"token\"",
+                    "#2": "GOOGLE_MAPS_TOKEN==\"token\""
                 }
             },
-            "files": {
-                "config/packages/mapux.yaml": {
-                    "contents": [
-                        "map_ux:",
-                        "  library: leaflet",
-                        ""
-                    ],
-                    "executable": false
-                }
-            },
-            "ref": "b99059ea1537a9bea1828c0cca234f25c62dae59"
+            "files": [],
+            "ref": "f4c9c8fd4713426038e3acbc44f979187cd2a889"
         }
     }
 }
