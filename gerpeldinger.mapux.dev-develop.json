@@ -9,11 +9,11 @@
                 },
                 "env": {
                     "#1": "MAP_BOX_TOKEN=\"token\"",
-                    "#2": "GOOGLE_MAPS_TOKEN==\"token\""
+                    "#2": "GOOGLE_MAPS_TOKEN=\"token\""
                 }
             },
             "files": [],
-            "ref": "f4c9c8fd4713426038e3acbc44f979187cd2a889"
+            "ref": "32134dba36ec620a23fccd5f37f60121b01ddbb9"
         }
     }
 }
