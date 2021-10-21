@@ -3,10 +3,8 @@
     "bundles": {
         "MapUx\\MapUxBundle": ["all"]
     },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    },
     "env": {
-        "#1": "MAP_TOKEN=\"token\""
+        "#1": "MAP_BOX_TOKEN=\"token\"",
+        "#2": "GOOGLE_MAPS_TOKEN==\"token\""
     }
 }
